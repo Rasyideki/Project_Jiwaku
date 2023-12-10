@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Izin Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Jiwaku"
+        tools:targetApi="31">
+        <activity
+            android:name=".FiturCatatanKebaikan.Jurnal.DetailJurnalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiturCatatanKebaikan.Jurnal.BuatJurnalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiturCatatanKebaikan.Jurnal.JurnalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiturCatatanKebaikan.Kalender.KalenderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage.MenuNavigation.JadwalFragment.JadwalFragment"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiturCatatanKebaikan.CatatanKebaikanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Setting.BeriMasukan"
+            android:exported="false" />
+        <activity
+            android:name=".FiturJiwapedia.HalVideo"
+            android:exported="false" />
+        <activity
+            android:name=".FiturJiwapedia.HalVideo2"
+            android:exported="false" />
+        <activity
+            android:name=".FiturJiwapedia.HalVideo3"
+            android:exported="false" />
+        <activity
+            android:name=".FiturJiwapedia.HalVideo4"
+            android:exported="false" />
+        <activity
+            android:name=".FiturJiwapedia.HalArtikel"
+            android:exported="false" />
+        <activity
+            android:name=".FiturJiwapedia.HalamanVideo"
+            android:exported="false" />
+        <activity
+            android:name=".FiturJiwapedia.HalamanArtikel"
+            android:exported="false" />
+        <activity
+            android:name=".FiturJiwapedia.JiwapediaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Setting.TentangKami"
+            android:exported="false" /> <!-- Fitur API Maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCJbEB7f8ynEvdkqtdXwj9febD11kiynY0" /> <!-- Fitur Konsultasi -->
+        <activity
+            android:name=".HomePage.MenuNavigation.JadwalFragment.SuccesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiturKonsultasi.KonsultasiActivity"
+            android:exported="false" /> <!-- Fitur Map -->
+        <activity
+            android:name=".FiturMapLokasi.MapsActivity"
+            android:exported="false" /> <!-- Fitur Call -->
+        <activity
+            android:name=".FiturPanggilanDarurat.PanggilanDaruratActivity"
+            android:exported="false" /> <!-- Setting -->
+        <!-- Fitur Meditasi -->
+        <activity
+            android:name=".FiturMeditasi.MeditasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FiturMeditasi.MusicCemas"
+            android:exported="false" />
+        <activity
+            android:name=".FiturMeditasi.MusicProduktivitas"
+            android:exported="false" />
+        <activity
+            android:name=".FiturMeditasi.MusicTidur"
+            android:exported="false" />
+        <activity
+            android:name=".FiturMeditasi.TahanNapasActivity"
+            android:exported="false" /> <!-- Intro OnBoarding -->
+        <activity
+            android:name=".OnBoarding.OnBoardingActivity"
+            android:exported="false" /> <!-- Halaman HomePage -->
+        <!-- Fitur Login & SignUp -->
+        <activity
+            android:name=".LoginSignup.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginSignup.LoginActivity"
+            android:exported="false" /> <!-- Fungsi Utama -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Font -->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

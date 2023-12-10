@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF6FC"
+    android:outlineProvider="background">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_radius_half"
+        android:title="Masukan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/arrow_black"
+            android:background="@android:color/transparent"
+            android:contentDescription="kembali"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Video On Demand"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/TopVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="TopVideo"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <HorizontalScrollView
+
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TopVideo">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- kontennya-->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="370dp"
+                android:layout_height="64dp"
+                android:angle="90"
+                app:cardBackgroundColor="#F2A9CC"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Vania Utami"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/judulVid1"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="28dp"
+                    android:onClick="fKeVideo1"
+                    android:textColor="@color/white"
+                    android:text="Gangguan Mental, Sadarkah Kamu?"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/poppins_semibold"/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/youtube" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/ListVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="ListVideo"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ListVideo">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- kontennya-->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="370dp"
+                android:layout_height="64dp"
+                android:angle="90"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="#F2A9CC"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Kumparan"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/judulVid2"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="28dp"
+                    android:onClick="fKeVideo2"
+                    android:textColor="@color/white"
+                    android:text="Ancaman Mental pada Generasi Muda"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/poppins_semibold"/>
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/youtube" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="370dp"
+                android:layout_height="64dp"
+                android:angle="90"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="#F2A9CC"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Neuron"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/judulVid3"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="28dp"
+                    android:onClick="fKeVideo3"
+                    android:textColor="@color/white"
+                    android:text="Apa itu Gangguan OCD?"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/poppins_semibold"/>
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/youtube" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="370dp"
+                android:layout_height="64dp"
+                android:angle="90"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="#F2A9CC"
+                app:cardCornerRadius="5dp">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Greatmind"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/judulVid4"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="28dp"
+                    android:onClick="fKeVideo4"
+                    android:textColor="@color/white"
+                    android:text="On Marissa's Mind: Kuat Mental"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/poppins_semibold"/>
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/youtube" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

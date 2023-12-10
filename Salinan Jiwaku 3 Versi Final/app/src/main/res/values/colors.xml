@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Blue">#2196F3</color>
+    <color name="grey">#FF424242</color>
+    <color name="primary">#84BFFF</color>
+    <color name="youngBlue">#EFF6FC</color>
+    <color name="red">#F94949</color>
+    <color name="abu">#7EFFFFFF</color>
+
+<!--    Kode Warna pada Halaman meditasi -->
+    <color name="hijau">#06A98A</color>
+    <color name="ungu">#748CDF</color>
+    <color name="kuning">#F8B361</color>
+    <color name="kuning3">#FF910D</color>
+    <color name="coklat">#AA7D75</color>
+
+<!--    Kode warna pada halaman musik dan tahan napas -->
+    <color name="oren">#FF564F</color>
+    <color name="bgBlue">#F2F9FF</color>
+    <color name="blue">#4DA9FF</color>
+    <color name="green">#06A98A</color>
+</resources>

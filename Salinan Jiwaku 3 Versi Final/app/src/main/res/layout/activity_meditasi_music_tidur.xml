@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ungu">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_radius_half"
+        android:title="Masukan">
+
+        <ImageButton
+            android:id="@+id/kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/arrow_black"
+            android:background="@android:color/transparent"
+            android:contentDescription="kembali"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Meditasi Produktivitas"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="28dp"
+        android:paddingVertical="3dp"
+        android:paddingHorizontal="5dp"
+        android:background="@drawable/border_radius">
+
+        <TextView
+            android:id="@+id/waktuMusik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="12dp"
+            android:fontFamily="@font/poppins" />
+
+        <TextView
+            android:id="@+id/menit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Menit"
+            android:textSize="12dp"
+            android:fontFamily="@font/poppins" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ikonMusik"
+        android:layout_width="267dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/meditasi_tidur"/>
+
+    <TextView
+        android:id="@+id/teksTidur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Tidur"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/teksDeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="25dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="Meditasi untuk membantu kamu mendapatkan tidur yang tenang"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/btnPlayPause"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="@drawable/border_musik"
+        android:src="@drawable/baseline_play"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textViewTimeElapsed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:00"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins"
+            android:textSize="16sp"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:id="@+id/textViewTotalTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0:00"
+            android:textColor="@color/white"
+            android:layout_marginStart="200dp"
+            android:fontFamily="@font/poppins"
+            android:textSize="16sp"
+            android:layout_gravity="end"/>
+
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="303dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:progressBackgroundTint="@color/white"
+        android:progressTint="@color/oren"
+        android:thumbTint="@color/white"
+        android:visibility="visible" />
+
+</LinearLayout>

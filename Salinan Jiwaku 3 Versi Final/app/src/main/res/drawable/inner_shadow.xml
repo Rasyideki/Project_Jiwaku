@@ -1,0 +1,15 @@
+<!-- inner_shadow.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/darker_gray" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</layer-list>

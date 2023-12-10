@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgBlue"
+    tools:context=".Setting.BeriMasukan">
+
+    <!--  Kode Navbar -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_radius_half"
+        android:title="Masukan">
+
+        <ImageButton
+            android:id="@+id/kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/arrow_black"
+            android:background="@android:color/transparent"
+            android:contentDescription="kembali"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Tuliskan Ulasanmu"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Kami harap kamu memiliki pengalaman yang menyenangkan saat menggunakan aplikasi JiwaKu. Silahkan tulis di bawah kolom ini untuk memberi komentar, pujian, atau pertanyaan."
+            android:textSize="14sp"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Bagaimana penilaianmu terhadap aplikasi JiwaKu?"
+            android:textSize="13sp"
+            android:layout_marginStart="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:gravity="center_horizontal">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText"
+            android:layout_width="336dp"
+            android:layout_height="176dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Tulis pengalamanmu disini..."
+            android:textSize="13sp"
+            android:padding="10dp"
+            android:background="@drawable/border_radius"
+            android:gravity="top"
+            android:inputType="textMultiLine"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Seberapa puaskah kamu?"
+            android:textSize="13sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioPuas"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/border_radius"
+                android:layout_height="wrap_content"
+                android:text="Kurang Puas" />
+
+            <RadioButton
+                android:id="@+id/radioKurangPuas"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_radius"
+                android:textSize="14sp"
+                android:text="Cukup Puas" />
+
+            <RadioButton
+                android:id="@+id/radioSangatPuas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_radius"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:text="Sangat Puas" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_gravity="right">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kirim"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:backgroundTint="@color/blue"
+            android:onClick="fKeAlert">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

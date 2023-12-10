@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!--  Kode Navbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/border_radius_half"
+        android:title="Meditasi">
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="JiwaKu"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="Account Button"
+            android:orientation="vertical"
+            android:src="@drawable/ikonapk" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Kode Konten -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Isi Konten Disini -->
+            <!--jadwal-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Rekomendasi"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!--            Kode item menu -->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+                    <!--item 1-->
+                    <LinearLayout
+                        android:layout_width="306dp"
+                        android:layout_height="135dp"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/menu"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="28dp"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="Cek sekarang! "
+                                android:textColor="@color/white"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="28dp"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="Apakah kamu terkena dampak mental health?"
+                                android:textColor="@color/white"
+                                android:textSize="13dp" />
+
+                            <TextView
+                                android:id="@+id/textBanner1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="28dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="Tonton Video"
+                                android:textColor="@color/white"
+                                android:textSize="12dp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="10dp"
+                            android:src="@drawable/banner1" />
+
+                    </LinearLayout>
+                    <!--Item 2-->
+                    <LinearLayout
+                        android:layout_width="306dp"
+                        android:layout_height="135dp"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/menu"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="28dp"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="Cek Kesehatan Mentalmu!"
+                                android:textColor="@color/white"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="28dp"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="Ayo konsultasi segera!"
+                                android:textColor="@color/white"
+                                android:textSize="13dp" />
+
+                            <TextView
+                                android:id="@+id/textBanner2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="28dp"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:text="Klik untuk mendaftar"
+                                android:textColor="@color/white"
+                                android:textSize="12dp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="10dp"
+                            android:src="@drawable/banner3" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <!--Fitur-->
+            <TextView
+                android:layout_width="136dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Jiwaku Peduli"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <!--Card Icon Fitur Start-->
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <!--Fitur1-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+                    <!--Fitur Panggilan Darurat-->
+                    <ImageButton
+                        android:id="@+id/btCall"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:contentDescription="Select Panggilan"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/emergencycall" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Panggilan Darurat"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                    <!--Fitur Meditasi-->
+                    <ImageButton
+                        android:id="@+id/btMeditasi"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:contentDescription="Select Meditasi"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/yoga" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Meditasi"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <!--Fitur2-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+                    <!--Fitur Konseling-->
+                    <ImageButton
+                        android:id="@+id/btKonseling"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:contentDescription="Select Konseling"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/doctor2" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Konseling"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                    <!--Fitur Catatan Kebaikan-->
+                    <ImageButton
+                        android:id="@+id/btCatatan"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:contentDescription="Select Catatan"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/note" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Catatan Kebaikan"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btJiwapedia"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:contentDescription="Select Artikel"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/openbook" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Jiwapedia"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                    <ImageButton
+                        android:id="@+id/btGoogleMaps"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:contentDescription="Select RS Terdekat"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/hospital" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Rumah sakit Terdekat"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+                <!--Fitur End-->
+            </LinearLayout>
+            <!--Fitur Card End-->
+
+            <!--Top Video-->
+            <TextView
+                android:layout_width="136dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Top Video"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="30dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/video1"
+                            android:layout_width="120dp"
+                            android:layout_height="69dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="0dp"
+                            app:srcCompat="@drawable/konten4" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins"
+                            android:text="Gangguan Mental, Sadarkah Kamu?"
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/video2"
+                            android:layout_width="120dp"
+                            android:layout_height="69dp"
+                            android:layout_gravity="center_vertical"
+                            app:srcCompat="@drawable/konten2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:fontFamily="@font/poppins"
+                            android:text="Apa itu OCD?"
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/video3"
+                            android:layout_width="120dp"
+                            android:layout_height="69dp"
+                            android:layout_gravity="center_vertical"
+                            app:srcCompat="@drawable/konten3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:fontFamily="@font/poppins"
+                            android:text="Gangguan Mental"
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/video4"
+                            android:layout_width="120dp"
+                            android:layout_height="69dp"
+                            android:layout_gravity="center_vertical"
+                            app:srcCompat="@drawable/konten1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:fontFamily="@font/poppins"
+                            android:text="Kuat Mental"
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

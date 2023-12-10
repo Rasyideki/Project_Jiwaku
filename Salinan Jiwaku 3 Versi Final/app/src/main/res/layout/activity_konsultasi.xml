@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F9FF"
+    tools:context=".FiturKonsultasi.KonsultasiActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_radius_half"
+        android:title="Masukan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/arrow_black"
+            android:background="@android:color/transparent"
+            android:contentDescription="kembali"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Konseling"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="326dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="#00000000"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsikan Masalahmu"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"
+            app:layout_constraintBottom_toTopOf="@+id/textInputEditText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.913" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="326dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="35dp"
+            app:cardCornerRadius="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/uploadMasalah"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:hint="Tuliskan deskripsi masalahmu disini..."
+                android:lines="3"
+                android:padding="5dp"
+                android:inputType="textMultiLine"
+                android:gravity="top"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.203" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="327dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="12dp"
+        app:cardBackgroundColor="#00000000"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih  Konselor"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"/>
+
+
+        <HorizontalScrollView
+            android:id="@+id/scrolDokter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="290dp"
+                    android:layout_height="88dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    app:cardCornerRadius="18dp">
+
+                    <ImageView
+                        android:id="@+id/ivDokter"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        app:srcCompat="@drawable/dokter" />
+
+                    <TextView
+                        android:id="@+id/textDokter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Dr. Seto,  S.Psi., M.Psi"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppins_semibold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="35dp"
+                        android:text="12 Tahun Pengalaman"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/poppins"/>
+
+                    <ImageView
+                        android:id="@+id/ivStar"
+                        android:layout_width="88dp"
+                        android:layout_height="16dp"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="55dp"
+                        app:srcCompat="@drawable/star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="170dp"
+                        android:layout_marginTop="55dp"
+                        android:text="(1221)"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/poppins"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="327dp"
+                    android:layout_height="88dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    app:cardCornerRadius="18dp">
+
+                    <ImageView
+                        android:id="@+id/ivDokter2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        app:srcCompat="@drawable/dokter3" />
+
+                    <TextView
+                        android:id="@+id/textDokter2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Dr. Melya Putri, S.Psi"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppins_semibold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="35dp"
+                        android:text="5 Tahun Pengalaman"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/poppins"/>
+
+                    <ImageView
+                        android:id="@+id/ivStar2"
+                        android:layout_width="88dp"
+                        android:layout_height="16dp"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="55dp"
+                        app:srcCompat="@drawable/star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="170dp"
+                        android:layout_marginTop="55dp"
+                        android:text="(200)"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/poppins"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:foregroundGravity="left"
+        android:text="Konselor Yang dipilih: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cardView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+        android:text=""
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="326dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="80dp"
+        app:cardBackgroundColor="#00000000"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+        <TextView
+            android:layout_width="171dp"
+            android:layout_height="28dp"
+            android:text="Pilih Sesi"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_semibold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="326dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="30dp"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/uploadTanggal"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:hint="Enter Date"
+                    android:text=""
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/tanggal"
+                    android:layout_width="52dp"
+                    android:layout_height="51dp"
+                    android:layout_marginLeft="270dp"
+                    android:background="#00000000"
+                    android:contentDescription="Select Date"
+                    android:onClick="fSetTanggal"
+                    android:src="@drawable/icon_date" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="326dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/uploadWaktu"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Enter Time"
+                    android:layout_gravity="center_vertical"
+                    android:text=""
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/jam"
+                    android:layout_width="52dp"
+                    android:layout_height="51dp"
+                    android:layout_marginLeft="270dp"
+                    android:background="#00000000"
+                    android:contentDescription="Select Time"
+                    android:onClick="fSetWaktu"
+                    android:src="@drawable/icon_timer" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:onClick="fKeSubmit"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

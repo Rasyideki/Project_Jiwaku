@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "340662418339",
+    "project_id": "jiwaku-loginsignup",
+    "storage_bucket": "jiwaku-loginsignup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340662418339:android:9a87f58d870300b40e3816",
+        "android_client_info": {
+          "package_name": "com.example.jiwaku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgsOl9LTiD_LDAe9M-z0SWlOB23EDByEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

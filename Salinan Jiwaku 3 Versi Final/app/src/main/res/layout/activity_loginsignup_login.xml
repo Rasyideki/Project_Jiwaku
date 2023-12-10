@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/youngBlue"
+    tools:context=".LoginSignup.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logoIcon"
+                android:layout_width="match_parent"
+                android:layout_height="273dp"
+                app:srcCompat="@drawable/login"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/textLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Login"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:padding="20dp">
+
+                <EditText
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/login_email"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border_radius"
+                    android:padding="8dp"
+                    android:hint="Email"
+                    android:drawableLeft="@drawable/baseline_email"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/grey"/>
+
+                <EditText
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/login_password"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border_radius"
+                    android:padding="8dp"
+                    android:hint="Password"
+                    android:drawableLeft="@drawable/baseline_lock"
+                    android:drawablePadding="8dp"
+                    android:textColor="@color/grey"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/forgot_password"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:padding="2dp"
+                    android:text="Forgot Password?"
+                    android:textColor="@color/Blue"
+                    android:textSize="16sp"/>
+
+                <Button
+                    android:id="@+id/login_button"
+                    android:layout_width="350dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#2196F3"
+                    android:text="Login"
+                    android:textSize="18sp"
+                    app:cornerRadius="30dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/signupRedirectText"
+                    android:text="Don't Have Account? Sign Up"
+                    android:layout_gravity="center"
+                    android:padding="6dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/Blue"
+                    android:clickable="true"
+                    android:onClick="signupPage"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

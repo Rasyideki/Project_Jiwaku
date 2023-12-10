@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Jiwaku</string>
+
+    // Nama Logo Teks
+    <string name="teksLogo">Karena Kami Peduli</string>
+
+    // Log In
+    <string name="login">Login</string>
+
+    // Onboarding Intro
+    <string name="skip_intro">Skip Intro</string>
+    <string name="next">Next</string>
+
+    // Call
+    <string name="ttCall">Anda Tidak Sendiri</string>
+    <string name="call">"Temukan Dukungan Tak Terbatas: Rasakan Ketenangan Hati dan Pikiran dengan Panggilan Darurat. Bersama, kita hadapi setiap tantangan untuk kesehatan mental yang lebih baik. Jangan ragu, hubungi sekarang dan mulailah perjalanan menuju kesejahteraan penuh!"</string>
+
+    // artikel 1
+    <string name="artikel1"><![CDATA[
+        Kena mental lu… Kata-kata itu sering terdengar pada anak-anak remaja zaman sekarang, untuk membully maupun melemahkan lawan bicara. Namun hal ini sepertinya sudah menjadi trend di kalangan remaja sekarang. Kesehatan mental dipengaruhi oleh peristiwa dalam kehidupan yang meninggalkan dampak yang besar pada kepribadian dan perilaku seseorang.
+
+        Peristiwa-peristiwa tersebut dapat berupa kekerasan dalam rumah tangga, pelecehan anak, atau stres berat jangka panjang. Jika kesehatan mental terganggu, maka timbul gangguan mental atau penyakit mental. Gangguan mental dapat mengubah cara seseorang dalam menangani stres, berhubungan dengan orang lain, membuat pilihan, dan memicu hasrat untuk menyakiti diri sendiri.
+
+        <b>Gejala Gangguan Mental</b>
+        1. Perubahan perilaku
+        Ini merupakan tanda munculnya penyakit mental pada anak yang tergolong mudah Anda sadari melalui aktivitas sehari-hari baik di rumah maupun di sekolah. Ketika anak menjadi lebih sering bertengkar, cenderung kasar, hingga berkata kasar yang menyakitkan orang lain padahal sebelumnya tidak, Anda perlu curiga. Tak hanya itu saja, Anda juga mungkin melihat perubahan perilaku anak seperti menjadi lebih mudah marah dan merasa frustasi.
+
+        2. Perubahan mood
+        Tanda penyakit mental lainnya adalah mood atau suasana hati anak yang berubah secara tiba-tiba. Kondisi ini bisa berlangsung sebentar hingga dalam jangka waktu yang tidak menentu.
+
+        Tentunya, hal ini bisa mengakibatkan masalah pada hubungan dengan keluarga serta teman sebaya. Ini merupakan gejala umum dari depresi, ADHD, hingga kelainan bipolar. Baca selengkapnya di <a href=\"http://bit.ly/kemkes-uii\">bit.ly/kemkes-uii</a>.
+    ]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

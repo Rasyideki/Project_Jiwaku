@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home" />
+
+    <item
+        android:id="@+id/menu_jadwal"
+        android:title="Jadwal"
+        android:icon="@drawable/baseline_jadwal" />
+
+    <item
+        android:id="@+id/menu_setting"
+        android:title="Setting"
+        android:icon="@drawable/baseline_settings" />
+</menu>
