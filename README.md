@@ -9,4 +9,4 @@ Informatika Universitas Islam Indonesia
 
 Lead Programmer: Reyki Aryanando Pratama
 
-Programmer : Yeni Sri Maharani, Julike Adelia Ashari, Aisya h, Muhammad Rasyid Baihaki,
+Programmer : Yeni Sri Maharani, Julike Adelia Ashari, Aisya h, Muhammad Rasyid Baihaki
