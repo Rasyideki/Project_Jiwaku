@@ -2,7 +2,9 @@
 JiwaKu adalah platform edukasi dan konsultasi yang bertujuan meningkatkan akses publik terhadap layanan kesehatan mental berbasik Aplikasi Android.
 
 
-#Anggota
+# Tugas Besar Pengembangan Aplikasi Bergerak 2023
+
+Informatika Universitas Islam Indonesia
 
 
 Lead Programmer: Reyki Aryanando Pratama
