@@ -18,4 +18,6 @@ Nama Anggota   :
 
 Job Desc :
 Anggota 1
-- Melakukan
+- Membuat Fitur Rumah sakit terdekat.
+- Membuat Fitur panggilan darurat.
+- Melakukan revisi tahap 1 pada laman home dan konsultasi sesuai dengan masukan setelah presentasi.
