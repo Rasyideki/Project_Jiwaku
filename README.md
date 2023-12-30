@@ -5,7 +5,9 @@ JiwaKu adalah platform edukasi dan konsultasi yang bertujuan meningkatkan akses 
 # Tugas Besar Pengembangan Aplikasi Bergerak 2023
 
 Nama Aplikasi  : JiwaKu
+
 Nama Kelompok  : LordReyki
+
 Nama Anggota   :
 
 1. Muhammad Rasyid Baihaki
