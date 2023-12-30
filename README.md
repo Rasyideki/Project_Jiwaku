@@ -1,4 +1,4 @@
-# Project_Jiwaku
+![image](https://github.com/Rasyideki/Project_Jiwaku/assets/135415822/f89a9377-3b40-45b1-bc2e-3cef66a8261e)# Project_Jiwaku
 JiwaKu adalah platform edukasi dan konsultasi yang bertujuan meningkatkan akses publik terhadap layanan kesehatan mental berbasis Aplikasi Android.
 
 
@@ -8,8 +8,12 @@ Nama Aplikasi  : JiwaKu
 Nama Kelompok  : LordReyki
 Nama Anggota   :
 
-1. Reyki Aryanando Pratama
-2. Muhammad Rasyid Baihaki
-3. Yeni Sri Maharani
-4. Julike Adelia Ashari
-5. Aisya h 
+1. Muhammad Rasyid Baihaki
+2.
+3.  
+4. 
+5.  
+
+Job Desc :
+Anggota 1
+- Melakukan
