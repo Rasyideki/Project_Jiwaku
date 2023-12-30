@@ -16,13 +16,13 @@ Nama Anggota   :
 4. 
 5.  
 
-Job Desc :
-Anggota 1
+Job Desc Tiap Anggota
+Anggota 1:
 - Membuat Fitur Rumah sakit terdekat.
 - Membuat Fitur panggilan darurat.
 - Melakukan revisi tahap 1 pada laman home dan konsultasi sesuai dengan masukan setelah presentasi.
 
-Anggota 2
+Anggota 2:
 - Membuat Fitur Video On Demand dan mengambil video dari Youtube.
 - Membuat Fitur JiwaPedia(artikel).
 - Menyiapkan bahan untuk setiap presentasi.
