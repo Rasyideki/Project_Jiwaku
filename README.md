@@ -1,4 +1,4 @@
-<img width="948" alt="image" src="https://github.com/Rasyideki/Project_Jiwaku/assets/120172921/ee16b51f-7755-4bb6-8ec1-465bc4d7c22c"># Project_Jiwaku
+# Project_Jiwaku
 JiwaKu adalah platform edukasi dan konsultasi yang bertujuan meningkatkan akses publik terhadap layanan kesehatan mental berbasis Aplikasi Android.
 
 
@@ -31,4 +31,3 @@ Anggota 2:
 Anggota 3:
 - Membuat Fitur Catatan Kebaikan dan Kalender Kebaikan.
 - Membuat laman About Us.
-
