@@ -4,9 +4,12 @@ JiwaKu adalah platform edukasi dan konsultasi yang bertujuan meningkatkan akses 
 
 # Tugas Besar Pengembangan Aplikasi Bergerak 2023
 
-Informatika Universitas Islam Indonesia
+Nama Aplikasi  : JiwaKu
+Nama Kelompok  : LordReyki
+Nama Anggota   :
 
-
-Lead Programmer: Reyki Aryanando Pratama
-
-Programmer : Yeni Sri Maharani, Julike Adelia Ashari, Aisya h, Muhammad Rasyid Baihaki
+1. Reyki Aryanando Pratama
+2. Muhammad Rasyid Baihaki
+3. Yeni Sri Maharani
+4. Julike Adelia Ashari
+5. Aisya h 
