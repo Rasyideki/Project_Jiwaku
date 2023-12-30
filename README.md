@@ -12,7 +12,7 @@ Nama Anggota   :
 
 1. Muhammad Rasyid Baihaki
 2. Yeni Sri Maharani
-3.  
+3. Julike Adelia Ashari
 4. 
 5.  
 
@@ -27,3 +27,7 @@ Anggota 2:
 - Membuat Fitur Video On Demand dan mengambil video dari Youtube.
 - Membuat Fitur JiwaPedia(artikel).
 - Menyiapkan bahan untuk setiap presentasi.
+
+Anggota 3:
+- Membuat Fitur Diary.
+- Mabuat laman About Us.
