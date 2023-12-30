@@ -11,7 +11,7 @@ Nama Kelompok  : LordReyki
 Nama Anggota   :
 
 1. Muhammad Rasyid Baihaki
-2.
+2. Yeni Sri Maharani
 3.  
 4. 
 5.  
@@ -21,3 +21,7 @@ Anggota 1
 - Membuat Fitur Rumah sakit terdekat.
 - Membuat Fitur panggilan darurat.
 - Melakukan revisi tahap 1 pada laman home dan konsultasi sesuai dengan masukan setelah presentasi.
+Anggota 2
+- Membuat Fitur Video On Demand dan mengambil video dari Youtube.
+- Membuat Fitur JiwaPedia(artikel).
+- Menyiapkan bahan untuk setiap presentasi.
