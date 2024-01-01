@@ -6,14 +6,14 @@ JiwaKu adalah platform edukasi dan konsultasi yang bertujuan meningkatkan akses 
 
 Nama Aplikasi  : JiwaKu
 
-Nama Kelompok  : LordReyki
+Nama Kelompok  : LordReiky
 
 Nama Anggota   :
 
 1. Muhammad Rasyid Baihaki
 2. Yeni Sri Maharani
 3. Julike Adelia Ashari
-4. 
+4. Reiky Aryanando Pratama
 5.  
 
 Job Desc Tiap Anggota:
@@ -31,3 +31,10 @@ Anggota 2:
 Anggota 3:
 - Membuat Fitur Catatan Kebaikan dan Kalender Kebaikan.
 - Membuat laman About Us.
+
+Anggota 4:
+- Membuat Fitur Login dan SignUp, serta Session LogOut pada Aplikasi.
+- Membuat Fitur On Boarding (Tutorial).
+- Menyempurnakan Fitur Jurnal Kebaikan.
+- Membuat proses penyimpanan CRUD pada fitur Konsultasi, jadwal Konsultasi, Beri Masukan, dan Jurnal Kebaikan.
+- Menyempurnakan dan Memperbaiki Design pada layout Frame.
