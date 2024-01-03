@@ -14,7 +14,7 @@ Nama Anggota   :
 2. Yeni Sri Maharani
 3. Julike Adelia Ashari
 4. Reiky Aryanando Pratama
-5.  
+5. Aisya H
 
 Job Desc Tiap Anggota:
 
@@ -38,3 +38,8 @@ Anggota 4:
 - Menyempurnakan Fitur Jurnal Kebaikan.
 - Membuat proses penyimpanan CRUD pada fitur Konsultasi, jadwal Konsultasi, Beri Masukan, dan Jurnal Kebaikan.
 - Menyempurnakan dan Memperbaiki Design pada layout Frame.
+
+Anggota 5:
+- Membuat Tampilan Awal Homepage
+- Membuat Fitur Konseling
+- Membuat laman beri masukan
