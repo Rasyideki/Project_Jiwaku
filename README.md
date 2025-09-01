@@ -1,7 +1,7 @@
 # 💙 Project_JiwaKu  
 JiwaKu adalah platform edukasi dan konsultasi yang bertujuan meningkatkan akses publik terhadap layanan kesehatan mental berbasis **Aplikasi Android**.  
 
-![Banner](docs/images/banner.png)
+![Banner](./src/banner_jiwaku.jpg)
 
 ---
 
@@ -46,11 +46,13 @@ Dengan JiwaKu, pengguna dapat menemukan informasi, melakukan konseling, hingga m
 ---
 
 ## 📸 Tampilan Aplikasi  
-*(Contoh, ganti dengan screenshotmu)*  
 
-| Beranda | JiwaPedia | Konseling |
-|---------|-----------|-----------|
-| ![Home](docs/images/home.png) | ![JiwaPedia](docs/images/jiwapedia.png) | ![Konseling](docs/images/konseling.png) |
+| Ui App |
+|---------|
+| ![Home](./src/splash_login_screen.jpg) |
+| ![jadwal jiwapedia](./src/home_jadwal_jiwapedia.jpg) |
+| ![Jiwapedia Meditasi](./src/jiwapedia_meditasi.jpg) |
+| ![Note Maps](./src/note_maps.jpg) |
 
 ---
 
